@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +19,109 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+
+/* my changes */
+body{
+  font-family: Helvetica;
+
 }
+
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+h1{
+  font-size: 80px;
+  padding-left: 20px;
+}
+
+h2{
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+#lab3{
+  font-family: Helvetica;
+  font-size:100px;
+  position:absolute;
+  top:5px;
+  left:1200px;
+
+}
+
+hr.line{
+  border:1px solid black;
+}
+
+.images{
+  text-align: center;
+  
+
+}
+
+
+
+.hovertext {
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5 ease;
+  opacity:0;
+  background-color:white;
+}
+
+.hovertext:hover .overlay{
+  opacity:0.8;
+}
+
+.overlay-text {
+  color:black;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#learnmore{
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left:565px;
+  outline:none;
+  
+}
+
+#learnmore:hover {
+  background-color:white; /* Green */
+  color: black;
+  outline: 2px solid black;
+}
+
+.buttonwrap{
+text-align: center;
+
+}
+
